@@ -1,0 +1,38 @@
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .banner-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
+    .banner-content-wrapper {
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+        position: relative;
+        z-index: 1;
+        background: #33333393;
+        height: 100vh;
+        color:#fff;
+        #text{
+            h1{
+                text-align: center;
+            }
+       margin-left: 100px;
+        }
+      }
+      #button{
+        margin-left: 100px;
+        background-color: #000000BA;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
