@@ -1,0 +1,68 @@
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+    /* Removed grey background */
+  }
+  
+  .testimonial-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);
+    margin: 15px;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .testimonial-card:hover {
+    width: 70%;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 1.9);
+    padding-bottom: 30px;
+  }
+  
+  .h3 {
+    margin: 0;
+    font-size: 1.9rem;
+  }
+  
+  .h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: rgb(0, 0, 0); /* Optional: make the title a different color */
+    padding-bottom: 30px;
+  }
+  
+  .p {
+    font-size: 1rem;
+    color: #333; /* Dark color for the quote */
+  }
+  
+  .quote-button {
+    background-color: black; /* Changed button color to black */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+  
+  .quote-button:hover {
+    background-color: #333; /* Darker shade on hover */
+  }
+  .ellipse{
+    position: absolute;
+    right: 0;
+    top: 360px;
+    width: 3%;
+  }
+  .circle{
+    position: relative;
+  }

@@ -1,0 +1,75 @@
+.newsletter-container {
+    background: url('../assets/news.png') no-repeat center center; /* Replace with your image URL */
+    background-size: cover;
+    /* padding: 50px 20px; */
+    height: 29vh;
+    position: relative;
+    color: white;
+    width: 80%; /* Set width to 80% */
+    margin: auto; /* Center the container */
+    margin-bottom: 50px;
+  }
+  
+  .newsletter-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    /* padding:  30px; */
+height: 29vh;
+    /* border-radius: 10px; */
+    max-width: 100%;
+    /* margin: auto; */
+    text-align: center;
+  }
+  
+  h2 {
+    margin: 0 0 10px;
+  }
+  
+  .newsletter-input {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center align input and button */
+    margin-top: 20px;
+  }
+  
+  .newsletter-input p {
+    margin-right: 10px; /* Add space between the paragraph and input */
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: black;
+  }
+  
+  .subscribe-button {
+    background-color: #ff0000; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+.three{
+    margin-bottom: 15px;
+    text-align: left;
+    .h2{
+        font-weight: bold;
+
+    }
+   
+}
+  }

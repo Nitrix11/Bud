@@ -1,0 +1,48 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 90%; /* Set to 90% width */
+    max-width: 800px; /* Optional: restrict maximum width */
+    margin: auto; /* Center the carousel */
+
+  }
+  
+  .carousel-logos {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 20px; /* Space between logos */
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .logo {
+    flex: 1; /* Take equal space */
+    min-width: 0; /* Ensure logos can shrink */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    z-index: 1; /* Ensure buttons are above other elements */
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between buttons and logos */
+    width: 100%;
+  }
+ 
